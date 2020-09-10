@@ -1,5 +1,5 @@
 export hackpref=http
-export hackhost=
+export hackhost=localhost
 export hackport=80
-export hackMainFolder=ExponentaForLinux"/"Distrib"/"plugins
+export hackMainFolder=ExponentaForDebian"/"Distrib"/"plugins
 

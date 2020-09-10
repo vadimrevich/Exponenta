@@ -11,9 +11,9 @@ fi
 #echo "Setting Variables..."
 
 httppref=http 
-httphost=
+httphost=localhost
 httpport=80
-httpMainFolder=ExponentaForLinux
+httpMainFolder=ExponentaForDebian
 
 # Create Source Directories
 #echo "Creating Temproraries..."

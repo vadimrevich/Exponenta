@@ -16,26 +16,21 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=d:\Download
+OutputDir=e:\yuden\Compile
 OutputBaseFilename=ExponentaMainFilesSetup
 SetupIconFile=..\..\Resource\Exponentapic.ico
 AllowNoIcons=True
 AppPublisher=New Internet Technologies Ltd.
-AppSupportURL=http://yudenisov.ru/
-AppSupportPhone=+79047071125
 RestartApplications=False
 UserInfoPage=True
 VersionInfoVersion=2.0.0.0
 VersionInfoCompany=New Internet Technologies Ltd.
 VersionInfoTextVersion=Version 2.0.0.0_alpha
-VersionInfoCopyright=Copyright (c) yudenisov 2018-2019
 VersionInfoProductName=Exponenta Admin Pack
 VersionInfoProductVersion=2.0.0.0
-AppPublisherURL=http://anticriminalonline.ru/
-AppContact=yudenisov@mail.ru
+AppPublisherURL=http://file.tuneserv.ru/
 SolidCompression=True
 LicenseFile=..\..\..\..\LICENSE.md
-AppCopyright=Copyright (c) Yuri A. Denisov 2018-2019
 
 [Dirs]
 Name: {app}\Util; Attribs: hidden; Permissions: everyone-full

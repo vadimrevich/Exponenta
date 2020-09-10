@@ -13,7 +13,7 @@
 -   В этом файле найти следующий фрагмент в секции \[Setup\]
 
     Output=no
-    OutputDir=d:\Download
+    OutputDir=e:\yuden\Compile
     OutputBaseFilename=ExponentaHTTPStylerMainFiles151SetupRePack
 
 -   Заменить их своими значениями. О правильном задании параметров смотри справку по программе Inno Setup.
