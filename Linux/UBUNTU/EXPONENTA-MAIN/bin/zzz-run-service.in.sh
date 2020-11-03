@@ -16,7 +16,7 @@ service nginx start
 service ssh start
 service cron start
 service networking start
-service php7.0-fpm start
+service php7.2-fpm start
 
 service avahi-daemon start
 ##service beef-xss start

@@ -10,7 +10,7 @@ fi
 #
 #echo "Setting Variables..."
 
-httppref=http 
+httppref=http
 httphost=localhost
 httpport=80
 httpMainFolder=ExponentaForDebian

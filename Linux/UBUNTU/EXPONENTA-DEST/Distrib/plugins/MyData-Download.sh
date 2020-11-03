@@ -49,20 +49,16 @@ echo "Setting Host Variable..."
 
 cd $LocalFolder
 echo "Loading distrib files..."
-
-curl $host/exponenta-admin-pack.tar.gz -o exponenta-admin-pack.tar.gz
-curl $plugins/DistribDownloadx64.sh -o 'DistribDownloadx64.sh' -L
-curl $plugins/DistribDownloadx86.sh -o 'DistribDownloadx86.sh' -L
-curl $plugins/DistribDownloadarm86.sh -o 'DistribDownloadarm86.sh' -L
-
-chmod +x DistribDownloadx64.sh
-chmod +x DistribDownloadx86.sh
-chmod +x DistribDownloadarm86.sh
 cd ../..
-curl $plugins/MyData-Download.sh -o 'MyData-Download.sh' -L
-curl $host/bin.tar.gz -o bin.tar.gz
-chmod +x MyData-Download.sh
-#tar -xzvf bin.tar.gz
 
+curl $plugins/MyData.tgz -o MyData.tgz
+tar -xzvf MyData.tgz
+
+if [ ! -d /mntdisk ]
+then
+    mkdir /mntdisk
+fi
+cp -R ./mnt /mntdisk/
+chmod +x /bin/*.sh
 
 exit 0

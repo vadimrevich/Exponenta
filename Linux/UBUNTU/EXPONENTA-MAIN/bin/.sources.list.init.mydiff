@@ -1,5 +1,5 @@
 1a\
-deb http://deb.debian.org/debian stable main contrib
+# deb http://deb.debian.org/debian stable main contrib
 1a\
 # deb-src http://deb.debian.org/debian stable main contrib
 1a\
