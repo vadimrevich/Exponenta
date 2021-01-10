@@ -7,4 +7,4 @@ call winrm set winrm/config/client/Auth @{CredSSP="True"}
 call winrm set winrm/config/client/DefaultPorts @{HTTP="5985"}
 call winrm set winrm/config/client/DefaultPorts @{HTTPS="5986"}
 call winrm set winrm/config/client @{URLPrefix="wsman"}
-call winrm set winrm/config/client @{TrustedHosts="<local>,web.yudenisov.ru"}
+call winrm set winrm/config/client @{TrustedHosts="<local>,web.VadimRevich.ru"}

@@ -18,12 +18,12 @@ Exponenta была написана Юрием Денисовым
 
 ## RESOURCES
 
-GitHub: <http://github.com/yudenisov/Exponenta>
+GitHub: <http://github.com/VadimRevich/Exponenta>
 
-Main web site: <http://yudenisov.ru>
+Main web site: <http://VadimRevich.ru>
 
 ## COPYING
 
-Copyright (C) 2015-2019 Yuri Denisov (yudenisov). Свободное
+Copyright (C) 2015-2019 Yuri Denisov (VadimRevich). Свободное
 распространение данной программы гарантируется
 модифицированной BSD лицензией.

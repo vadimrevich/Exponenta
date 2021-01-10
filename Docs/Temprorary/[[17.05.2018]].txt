@@ -14,7 +14,7 @@
 -- Существование каталогов c:\pub1, C:\Elevation, "C:\Program Files\Hidden Start", C:\ProgramData\chocolatey
 -- Существование переменных в реестре: %PUB1%, %ELEVATION%, %Hacker_User%, %Hacker_Pass%, %Hacker_host1%, %Hacker_host2%,
 -- Существует ли запись в реестре для пакета "Hidden Start".
--- Существует ли учётная запись MSSQLSR
+-- Существует ли учётная запись MyAdminAccount
 -- Существует ли запись "Onload Command Interface" в ветви реестра "HKLM\SOFTWERE\WOW6432Node\Microsoft\Windows\Current\Version\Run"
 
 Если данные ресурсы существуют, они удаляются, кроме пакета chocolatey. Это основа работы деинсталлятора.

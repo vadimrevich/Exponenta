@@ -3,7 +3,7 @@
 #
 # delUniversalLoginAccoont.sh
 #
-# This Script remove local admin user with login «MSSQLSR» and password «Admin01234» from system
+# This Script remove local admin user with login «MyAdminAccount» and password «MyAdminPassword» from system
 #
 # The Script returns:
 # * 2 if general ERROR occur when running the script
@@ -15,11 +15,11 @@ if [ ! -f @bindir@/deluser.sudo.sh ]; then
 	exit 2
 fi
 
-deluser.sudo.sh MSSQLSR
+deluser.sudo.sh MyAdminAccount
 if [ $? -ne 0 ]
 then
 	echo "\n\nGENERAL ERROR occur\n"
 	exit 2
 fi
-userdel -f -r MSSQLSR && echo -en "\nSuccess! \n\tThe sudo user MSSQLSR has been deleted\n"
+userdel -f -r MyAdminAccount && echo -en "\nSuccess! \n\tThe sudo user MyAdminAccount has been deleted\n"
 exit 0

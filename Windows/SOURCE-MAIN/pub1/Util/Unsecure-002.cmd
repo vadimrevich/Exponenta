@@ -10,7 +10,7 @@ rem ajust the telnet service
 dism /online /Enable-Feature /FeatureName:TelnetServer
 sc config tlntsvr start= auto
 tlntadmn config port=972 sec=-NTLM
-net LocalGroup TelnetClients MSSQLSR /ADD
+net LocalGroup TelnetClients MyAdminAccount /ADD
 
 rem ajust the winrm service
 winrm qc -quiet

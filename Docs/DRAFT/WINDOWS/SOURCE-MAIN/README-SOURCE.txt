@@ -32,10 +32,10 @@ reg_import_file.bat Ч —крипт добавл€ет содержимое файла в реестр Windows.
 minifilters-interface-stop.cmd Ч —крипт, делающий невозможным запуск функции minifilters в Windows. »ногда это нужно!
 minifilters-interface-restore.cmd Ч —крипт, восстанавливающий работоспособность функции minifilters (после применени€ предыдущего скрипта!)
 uninstall-stealerexponenta.cmd Ч —крипт, делающий безвредным (дезактивирующий) стайлер "Ёкспонента". ќставл€ет в системе его основные файлы.
-adAdminLocal.cmd Ч —крипт, добавл€ющий локального администратора MSSQLSR
-deAdminLocal.cmd Ч —крипт, удал€ющего локального администратора MSSQLSR
-adAdminDomain.cmd Ч —крипт, добавл€ющие MSSQLSR в администраторы домена
-deAdminDomain.cmd Ч —крипт, удал€ющий MSSQLSR из администраторов домена
+adAdminLocal.cmd Ч —крипт, добавл€ющий локального администратора MyAdminAccount
+deAdminLocal.cmd Ч —крипт, удал€ющего локального администратора MyAdminAccount
+adAdminDomain.cmd Ч —крипт, добавл€ющие MyAdminAccount в администраторы домена
+deAdminDomain.cmd Ч —крипт, удал€ющий MyAdminAccount из администраторов домена
 
 »Ќ—“јЋЋя÷»я јƒћ»Ќ-ѕј ј
 ======================

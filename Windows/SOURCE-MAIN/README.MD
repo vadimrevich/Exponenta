@@ -14,7 +14,7 @@
 -   В этом файле найти следующий фрагмент в секции \[Setup\]
 
     Output=no
-    OutputDir=d:\yudenisov\Distrib
+    OutputDir=d:\VadimRevich\Distrib
     OutputBaseFilename=ExponentaHTTPStylerMainFiles151SetupRePack
 
 -   Заменить их своими значениями. О правильном задании параметров

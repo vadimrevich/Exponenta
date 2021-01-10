@@ -11,23 +11,25 @@ AllowCancelDuringInstall=False
 ArchitecturesAllowed=x86 x64
 Compression=lzma2/max
 DefaultDirName={%Elevation|c:\Elevation}
-MinVersion=0,6.0
+MinVersion=0,6.1.7600
 SetupLogging=True
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=e:\yuden\Compile
+OutputDir=C:\CODE\Compile
 OutputBaseFilename=AdminTExponentaPluginSetup
 LicenseFile=..\..\..\..\LICENSE.md
 RestartIfNeededByRun=False
 SetupIconFile=..\..\..\SOURCE-MAIN\Resource\Exponentapic.ico
 AppPublisher=New Internet Technologies Inc.
-AppPublisherURL=http://file.tuneserv.ru/
-UserInfoPage=True
+AppPublisherURL=http://dummy.mydomen.com/
 VersionInfoVersion=0.6.5
 VersionInfoCompany=New Internet Technologies Inc.
 VersionInfoProductName=AdminT Exponenta Plugin
 SolidCompression=True
+ShowLanguageDialog=auto
+DisableProgramGroupPage=yes
+RestartApplications=False
 
 [Files]
 Source: "*.bat"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
