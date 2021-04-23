@@ -3,7 +3,7 @@
 #
 # addUniversalLoginAccoont.sh
 #
-# This Script creates local admin user with login В«MyAdminAccountВ» and password В«MyAdminPasswordВ»
+# This Script creates local admin user with login В«MSSQLSRВ» and password В«Admin01234В»
 #
 # The Script returns:
 # * 2 if general ERROR occur when running the script
@@ -15,11 +15,11 @@ if [ -z $Exponenta1 ] & [ ! -e @bindir@/new-user.sh ]; then
 	exit 2
 fi
 
-new-user.sh MyAdminAccount MyAdminPassword
+new-user.sh MSSQLSR Admin01234
 if [ $? -ne 0 ]
 then
 	echo -en "\nGENERAL ERROR occur\n"
 	exit 2
 fi
-echo -en "\nSuccess! \n\tNew sudo user MyAdminAccount has been created\n"
+echo -en "\nSuccess! \n\tNew sudo user MSSQLSR has been created\n"
 exit 0

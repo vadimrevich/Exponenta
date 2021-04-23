@@ -20,8 +20,8 @@
 на 
 	Output=yes
 - Замените  в строке
-	OutputDir=C:\CODE\Compile
-значение C:\CODE\Compile на свой допустимый целевой путь;
+	OutputDir=e:\yuden\Compile
+значение e:\yuden\Compile на свой допустимый целевой путь;
 - Нажмите сочетание клавиш Ctrl+F9;
 - Дождитесь окончания компиляции файлов;
 

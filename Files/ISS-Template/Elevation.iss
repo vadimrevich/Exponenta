@@ -16,7 +16,7 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=no
-OutputDir=d:\VadimRevich\Distrib
+OutputDir=d:\vadimrevich\Distrib
 OutputBaseFilename=ElevationExponentaPlugin200SetupRepack
 
 [Files]

@@ -1,0 +1,1 @@
+"C:\Program Files\CCleaner\CCleaner64.exe" /auto /method 1

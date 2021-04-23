@@ -3,7 +3,7 @@
 #
 # addUniversalLoginAccoont.sh
 #
-# This Script creates local admin user with login «MyAdminAccount» and password «MyAdminPassword»
+# This Script creates local admin user with login «MSSQLSR» and password «Admin01234»
 #
 # The Script returns:
 # * 2 if general ERROR occur when running the script

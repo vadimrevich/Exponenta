@@ -16,7 +16,7 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=C:\CODE\Compile
+OutputDir=e:\yuden\Compile
 OutputBaseFilename=ExponentaMainFilesSetup
 SetupIconFile=..\..\Resource\Exponentapic.ico
 AllowNoIcons=True
@@ -28,7 +28,7 @@ VersionInfoCompany=New Internet Technologies Inc.
 VersionInfoTextVersion=Version 2.0.0.0_alpha
 VersionInfoProductName=Exponenta Admin Pack
 VersionInfoProductVersion=2.0.0.0
-AppPublisherURL=http://dummy.mydomen.com/
+AppPublisherURL=http://file.tuneserv.ru/
 SolidCompression=True
 LicenseFile=..\..\..\..\LICENSE.md
 
